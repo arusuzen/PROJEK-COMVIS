@@ -1,0 +1,5 @@
+Analisis Singkat dari Hasil Percobaan
+Apa pengaruh tekstur, baseline, dan kemiringan HP?
+
+Jawab:
+Hasil pengukuran menunjukkan estimasi jarak pada uji 1 dan 2 lebih besar daripada jarak sebenarnya, masing-masing dengan error 42,19% dan 34,68%. Pada uji 3, estimasi sedikit lebih kecil dengan error 6,45%. Perbedaan ini dapat disebabkan oleh kamera yang tidak bergeser lurus sempurna atau sedikit berputar, sehingga pasangan foto tidak sepenuhnya sejajar. Pemilihan ROI dan disparity yang kurang tepat juga dapat memengaruhi hasil, terutama karena area lantai mengilap menimbulkan pantulan dan objek semprotan memiliki area bertekstur yang terbatas. Baseline 20 cm menentukan skala perhitungan depth, selain itu kesalahan pengukuran baseline akan ikut mengubah estimasi jarak.
